@@ -10,4 +10,5 @@
 - **graficos/** : _Scripts_ para extair estatísticas dos PCAps e _Jupyter Notebooks_ para gerar gráficos;
 - **ml/** : _Jupyter Notebooks_ de aplicação de ML nos _datasets_;
 - **packet-capture/** : _Script_ para captura de pacotes de forma estratificada (por IPs);
-- **replay/** : _Scripts_ para replicar os tráfegos _Normal_ e _Ataque_.
+- **replay/** : _Scripts_ para replicar os tráfegos _Normal_ e _Ataque_;  
+- **requirements.txt** : Pacotes Python utilizados.
