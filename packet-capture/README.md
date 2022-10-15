@@ -6,10 +6,10 @@ _Scripts_ para realizar captura de tráfego separada por _hosts_.
 
 - **get_iface_namespace.py** : _Script_ para retornar o _namespace_ e interface de rede no Linux de uma porta de um roteador no Openstack;
 - **stratified-capture_v3.py/** : _Script_ de captura;
-- **capture.ini : Arquivo com os _hosts_ para captura do tráfego original;
-- **capture-replay.ini : Arquivo com os _hosts_ para captura do tráfego replicado;
-- **merge_pcaps_v2.sh : _Script_ para juntar arquivos PCAP;
-- **num_packets.sh : _Script_ para listar os números de pacotes SYN, SYN-ACK, RST.
+- **capture.ini** : Arquivo com os _hosts_ para captura do tráfego original;
+- **capture-replay.ini** : Arquivo com os _hosts_ para captura do tráfego replicado;
+- **merge_pcaps_v2.sh** : _Script_ para juntar arquivos PCAP;
+- **num_packets.sh** : _Script_ para listar os números de pacotes SYN, SYN-ACK, RST.
 
 
 # Tech Info
