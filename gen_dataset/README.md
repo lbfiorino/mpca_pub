@@ -1,4 +1,4 @@
-# Scripts para geração _datasets_ de _traces_ de pacotes
+# Scripts para geração de _datasets_ de _traces_ de pacotes
 
 ## Arquivos
 - **gen_csv_argus_v2.sh/** : _Script_ para gerar _dataset_ com a ferramenta Argus;
