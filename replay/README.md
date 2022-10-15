@@ -6,7 +6,8 @@ Commando de replicação dentro do _namespace_:
 `gor1.3.3 --verbose 1 --stats --input-file {GOR_FILE} --output-http "http://{args.target_server}"`
 - **Tcpreplay 4.4.1**  
 Commando de replicação dentro do _namespace_:  
-`tcpreplay --intf1={ns_iface} --multiplier=1.000000 {replay_pcap}`
+`tcpreplay --intf1={ns_iface} --multiplier=1.000000 {replay_pcap}`  
+Foi observado nos testes que as casas decimais do parâmetro `--multiplier` interere no desempenho. Foi considerado a mesma precisão da captura, em microssegundos.
 
 ## Arquivos e Pastas:  
 - **logs** : logs gerados pelos scripts de replicação;
