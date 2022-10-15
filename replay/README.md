@@ -2,10 +2,10 @@
 
 Ferramentas de replicação:  
 - **GoReplay 1.3.3**  
-Commando de replicação dentro do namespace:  
+Commando de replicação dentro do _namespace_:  
 `gor1.3.3 --verbose 1 --stats --input-file {GOR_FILE} --output-http "http://{args.target_server}"`
 - **Tcpreplay 4.4.1**  
-Commando de replicação dentro do namespace:  
+Commando de replicação dentro do _namespace_:  
 `tcpreplay --intf1={ns_iface} --multiplier=1.000000 {replay_pcap}`
 
 ## Arquivos e Pastas:  
@@ -22,5 +22,3 @@ Outros:
 - **edit_http_request_pcap.py** : _Script_ para alterar campos HTTP nos pacotes;
 - **edit_mac_ip_pcap.py** : _Script_ para alterar MAC e IP dos pacotes;
 - **edit_packet_timestamp.py** : _Script_ para alterar a precisão do _timestamp_ do pacote;
-
-
