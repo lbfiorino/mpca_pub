@@ -1,5 +1,10 @@
 # _Scripts_ de replicação dos tráfegos http e ataque
 
+Ferramentas de replicação:  
+- **GoReplay 1.3.3**  
+- **Tcpreplay 4.4.1**  
+
+
 ## Arquivos e Pastas:  
 - **logs** : logs gerados pelos scripts de replicação;
 - **createnamespace.py** : Funcão para criar os namescapes de replicação no Linux;
