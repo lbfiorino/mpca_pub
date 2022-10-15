@@ -1,10 +1,12 @@
-## Scripts de replicação dos tráfegos http e ataque
+# _Scripts_ de replicação dos tráfegos http e ataque
 
+## Arquivos e Pastas:  
+- **logs** : logs gerados pelos scripts de replicação;
 - **createnamespace.py** : Funcão para criar os namescapes de replicação no Linux;
 - **replay_http_goreplay_v2.py** : _Script_ para replicar tráfego http com a ferramenta GoReplay;
 - **replay_syn_tcpreplay_v2.py** : _Script_ para replicar tráfego syn-flood com a ferramenta Tcpreplay;
 - **extract_synflood_pcap.sh** : _Script_ para extrair os pacotes SYN dos PCAPs para replicação com o _script_ _replay_syn_tcpreplay_v2.py_;
-- **goreplay_extract_v2.sh** : _Script_ para extrair as requisições HTTP dos PCAPs para replicação com o _script_ _replay_http_goreplay_v2.py_
+- **goreplay_extract_v2.sh** : _Script_ para extrair as requisições HTTP dos PCAPs para replicação com o _script_ _replay_http_goreplay_v2.py_;
 
 Outros:  
 - **replay_syn_moongen_v2.py** : _Script_ para replicar tráfego syn-flood com a ferramenta MoonGen;
