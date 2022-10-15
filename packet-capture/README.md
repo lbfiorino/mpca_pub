@@ -5,8 +5,7 @@ _Scripts_ para realizar captura de tráfego separada por _hosts_.
 ## Arquivos e Pastas
 
 - **get_iface_namespace.py** : _Script_ para retornar o _namespace_ e interface de rede no Linux de uma porta de um roteador no Openstack;
-- **stratified-capture_v2.py/** : _Script_ atual de captura;
-- **stratified-capture_v3_aplha.py/** : Nova versão em dev para unificar em um único _script_.
+- **stratified-capture_v3.py/** : _Script_ de captura;
 
 
 # Tech Info
