@@ -12,7 +12,7 @@ Ferramentas de replicação:
 
 Commando de replicação dentro do _namespace_:  
 `tcpreplay --intf1={NS_IFACE} --multiplier=1.000000 {REPLAY_PCAP}`  
-Foi observado nos testes que as casas decimais do parâmetro `--multiplier` interere no desempenho. Foi considerado a mesma precisão da captura, em microssegundos.
+Foi observado nos testes que as casas decimais do parâmetro `--multiplier` interfere no desempenho. Foi considerado a mesma precisão da captura, em microssegundos.
 
 ## Arquivos e Pastas:  
 - **logs** : logs gerados pelos scripts de replicação;
