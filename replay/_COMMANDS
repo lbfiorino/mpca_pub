@@ -1,0 +1,12 @@
+
+# Captura. Ex: Normal
+sudo python3 stratified-capture_v3.py -c capture-replay.ini -i ens4f0np0 -t normal-http-replay -o /var/luciano/pcaps/replay/train/normal-http-replay
+
+# GoReplay
+sudo ./replay_http_goreplay_v2.py -g gor1.2.0 -s 16:05:00 -t 10.50.1.161 -d /var/luciano/replay/gor120/train/normal-http -i ens4f1np1 -a 10.50.10.151 -m 24 -r 10.50.1.0/24
+
+# Tcpreplay
+sudo ./replay_syn_tcpreplay_v2.py -s 08:18:00 -t 10.50.1.161 -p /var/luciano/replay/tcpreplay/train/attack-synflood -i ens4f1np1 -a 10.50.10.201 -m 24 -r 10.50.1.0/24
+
+# Moongen
+sudo ./replay_syn_moongen_v2.py -s 18:00:00 -t 10.50.1.161 -p /var/luciano/replay/tcpreplay/train/attack-synflood/ -i ens4f1np1 -a 10.50.10.201 -m 24 -r 10.50.1.0/24

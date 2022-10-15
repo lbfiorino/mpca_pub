@@ -1,0 +1,11 @@
+http://10.50.1.161/
+http://10.50.1.161/index.html
+http://10.50.1.161/about.html
+http://10.50.1.161/service.html
+http://10.50.1.161/project.html
+http://10.50.1.161/feature.html
+http://10.50.1.161/quote.html
+http://10.50.1.161/team.html
+http://10.50.1.161/testimonial.html
+http://10.50.1.161/404.html
+http://10.50.1.161/contact.html

@@ -1,0 +1,10 @@
+clouds:
+  ifes_serra:
+    region_name: RegionOne
+    auth:
+      username: 'username'
+      password: 'password'
+      project_name: 'project_name'
+      auth_url: 'http[s]://<HOST>:5000/v3'
+      user_domain_name: 'Default'
+      project_domain_id: 'default'

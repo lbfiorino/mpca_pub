@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------------
+REPLAY SYN-FLOOD ATTACK (TCPREPLAY)
+       UTC: 2022-08-11 16:45:30.565150+00:00
+Local Time: 2022-08-11 13:45:30.565150-03:00
+------------------------------------------------------------------------------------------------
+
+PCAP Original: 172.19.113.10_to_10.50.1.161_port80_tcp_attack-synflood_mixed.pcap_only-syn.pcap
+	               Namespace: mpca_10.50.10.201
+	PCAP modified (replayed): /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.201.pcap
+	          Replay Command: sleep $(( $(date -d 13:50:00 +%s) - $(date +%s) )) ; ip netns exec mpca_10.50.10.201 tcpreplay --intf1=macv0 --multiplier=1.000000 /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.201.pcap | tee -i /home/lucianobf/dev/mpca/replay/logs/tcpreplay/10.50.10.201.pcap.log
+
+PCAP Original: 172.19.113.6_to_10.50.1.161_port80_tcp_attack-synflood_mixed.pcap_only-syn.pcap
+	               Namespace: mpca_10.50.10.202
+	PCAP modified (replayed): /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.202.pcap
+	          Replay Command: sleep $(( $(date -d 13:50:00 +%s) - $(date +%s) )) ; ip netns exec mpca_10.50.10.202 tcpreplay --intf1=macv0 --multiplier=1.000000 /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.202.pcap | tee -i /home/lucianobf/dev/mpca/replay/logs/tcpreplay/10.50.10.202.pcap.log
+
+PCAP Original: 172.19.113.7_to_10.50.1.161_port80_tcp_attack-synflood_mixed.pcap_only-syn.pcap
+	               Namespace: mpca_10.50.10.203
+	PCAP modified (replayed): /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.203.pcap
+	          Replay Command: sleep $(( $(date -d 13:50:00 +%s) - $(date +%s) )) ; ip netns exec mpca_10.50.10.203 tcpreplay --intf1=macv0 --multiplier=1.000000 /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.203.pcap | tee -i /home/lucianobf/dev/mpca/replay/logs/tcpreplay/10.50.10.203.pcap.log
+
+PCAP Original: 172.19.113.8_to_10.50.1.161_port80_tcp_attack-synflood_mixed.pcap_only-syn.pcap
+	               Namespace: mpca_10.50.10.204
+	PCAP modified (replayed): /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.204.pcap
+	          Replay Command: sleep $(( $(date -d 13:50:00 +%s) - $(date +%s) )) ; ip netns exec mpca_10.50.10.204 tcpreplay --intf1=macv0 --multiplier=1.000000 /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.204.pcap | tee -i /home/lucianobf/dev/mpca/replay/logs/tcpreplay/10.50.10.204.pcap.log
+
+PCAP Original: 172.19.113.9_to_10.50.1.161_port80_tcp_attack-synflood_mixed.pcap_only-syn.pcap
+	               Namespace: mpca_10.50.10.205
+	PCAP modified (replayed): /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.205.pcap
+	          Replay Command: sleep $(( $(date -d 13:50:00 +%s) - $(date +%s) )) ; ip netns exec mpca_10.50.10.205 tcpreplay --intf1=macv0 --multiplier=1.000000 /var/luciano/replay/tcpreplay/test/attack-synflood-mixed/10.50.10.205.pcap | tee -i /home/lucianobf/dev/mpca/replay/logs/tcpreplay/10.50.10.205.pcap.log
+
