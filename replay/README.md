@@ -2,13 +2,15 @@
 
 Ferramentas de replicação:  
 - **GoReplay 1.3.3**
+
 Comando para extrair as requisições do PCAP. Parametrizado para gerar apenas um arquivo por PCAP.  
 `gor1.3.3 --verbose 10 --input-raw $PCAP_FILE:80 --input-raw-engine pcap_file --output-file-size-limit 1TB --output-file-queue-limit 0 --output-file $GOR_OUTFILE`  
 
 Commando de replicação dentro do _namespace_.  
 `gor1.3.3 --verbose 1 --stats --input-file {GOR_FILE} --output-http "http://{args.target_server}"`
 
-- **Tcpreplay 4.4.1**  
+- **Tcpreplay 4.4.1**
+
 Commando de replicação dentro do _namespace_:  
 `tcpreplay --intf1={ns_iface} --multiplier=1.000000 {replay_pcap}`  
 Foi observado nos testes que as casas decimais do parâmetro `--multiplier` interere no desempenho. Foi considerado a mesma precisão da captura, em microssegundos.
