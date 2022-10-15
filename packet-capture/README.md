@@ -2,7 +2,7 @@
 
 ## Arquivos
 
-- **get_iface_namespace.py** : _Script_ para retornar o _namespace_ e interface de rede no Linux de uma porta de um roteador no Openstack;
+- **get_iface_namespace.py** : _Script_ para retornar o _namespace_ e interface de rede no Linux de uma porta no serviço Neutron do Openstack;
 - **stratified-capture_v3.py/** : _Script_ de captura por host e tráfego a partir dos arquivos de configuração `.ini`;
 - **capture.ini** : Arquivo com os _hosts_ para captura do tráfego original;
 - **capture-replay.ini** : Arquivo com os _hosts_ para captura do tráfego replicado;
