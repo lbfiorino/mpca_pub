@@ -1,6 +1,4 @@
-# packet-capture
-
-_Scripts_ para realizar captura de tráfego separada por _hosts_.
+# _Scripts_ para realizar captura de tráfego separada por _hosts_.
 
 ## Arquivos
 
