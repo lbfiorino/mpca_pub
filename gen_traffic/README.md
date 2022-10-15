@@ -5,5 +5,5 @@ Ferramentas utilizadas:
 - **Hping**: Ataque SYN_Flood.
 
 Setup dos tráfegos: 
--TRAFEGOS_TESTE.md
--TRAFEGOS_TREINO.md
+- TRAFEGOS_TESTE.md
+- TRAFEGOS_TREINO.md
