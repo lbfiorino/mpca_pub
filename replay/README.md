@@ -4,6 +4,7 @@ Ferramentas de replicação:
 - **GoReplay 1.3.3**  
 Commando de replicação dentro do _namespace_:  
 `gor1.3.3 --verbose 1 --stats --input-file {GOR_FILE} --output-http "http://{args.target_server}"`
+
 - **Tcpreplay 4.4.1**  
 Commando de replicação dentro do _namespace_:  
 `tcpreplay --intf1={ns_iface} --multiplier=1.000000 {replay_pcap}`  
