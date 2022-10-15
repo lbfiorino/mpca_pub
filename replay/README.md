@@ -16,7 +16,7 @@ Foi observado nos testes que as casas decimais do parâmetro `--multiplier` inte
 
 ## Arquivos e Pastas:  
 - **logs** : logs gerados pelos scripts de replicação;
-- **createnamespace.py** : Função utilizada pelos _scripts_ de replicção para criar os namescapes no Linux;
+- **createnamespace.py** : Função utilizada pelos _scripts_ de replicação para criar os namescapes do tipo MACVLAN no Linux;
 - **replay_http_goreplay_v2.py** : _Script_ para replicar tráfego http com a ferramenta GoReplay;
 - **replay_syn_tcpreplay_v2.py** : _Script_ para replicar tráfego syn-flood com a ferramenta Tcpreplay;
 - **extract_synflood_pcap.sh** : _Script_ para extrair os pacotes SYN dos PCAPs para replicação com o _script_ _replay_syn_tcpreplay_v2.py_;
