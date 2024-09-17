@@ -11,8 +11,8 @@ Ferramentas de replicação:
 
 - **Tcpreplay 4.4.1** (https://tcpreplay.appneta.com/)
   
-  Commando de replicação dentro do _namespace_:
-  `tcpreplay --intf1={NS_IFACE} --multiplier=1.000000 {REPLAY_PCAP}`
+  Commando de replicação dentro do _namespace_:  
+  `tcpreplay --intf1={NS_IFACE} --multiplier=1.000000 {REPLAY_PCAP}`  
   Foi observado nos testes que as casas decimais do parâmetro `--multiplier` interfere no desempenho. Foi considerado a mesma precisão da captura, em microssegundos.
 
 ## Arquivos e Pastas:  
