@@ -10,6 +10,7 @@ Ferramentas de replicação:
   `gor1.3.3 --verbose 1 --stats --input-file {GOR_FILE} --output-http "http://{TARGET_SERVER}"`
 
 - **Tcpreplay 4.4.1** (https://tcpreplay.appneta.com/)
+  
   Commando de replicação dentro do _namespace_:
   `tcpreplay --intf1={NS_IFACE} --multiplier=1.000000 {REPLAY_PCAP}`
   Foi observado nos testes que as casas decimais do parâmetro `--multiplier` interfere no desempenho. Foi considerado a mesma precisão da captura, em microssegundos.
